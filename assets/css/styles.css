@@ -15,6 +15,7 @@ body {
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
     display: inline-block;
+    opacity: 0.5;
 }
 
 .header {
@@ -30,6 +31,7 @@ body {
     background-size: 100% 100%;
     color: white;
     padding-bottom: 360px;
+    filter: alpha(opacity=80);
 }
 
 .navbar li a {
@@ -79,4 +81,29 @@ button {
     padding: 5px 5px 5px;
     border-color: white;
     font-size: 10px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding-left: 210px;
+    padding-right: 150px;
+
+}
+
+.section-1 img {
+    border: 1px solid;
+    height: 75px;
+    width: 70px;
+}
+
+.section-1 p {
+    font-size: x-small;
+    text-align: justify;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: flex-end;
 }
