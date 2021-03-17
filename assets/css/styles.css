@@ -166,5 +166,63 @@ h1 {
 .proyect {
     display: flex;
     justify-content: center;
+    font-size: small;
+}
 
+.photo-1 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    height: 150px;
+    margin-left: 300px;
+}
+
+.text-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.photo-2 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.text-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.photo-3 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.text-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.photo-4 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.text-4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
 }
