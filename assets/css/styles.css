@@ -14,13 +14,13 @@ body {
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    display: flex;
-    align-items: flex-start;
-    /*display: inline-block;*/
+    display: inline-block;
     opacity: 0.5;
-    /*padding: 0px;
-    margin-top: 50px;
-    margin-left: 0px;*/
+}
+
+.logo img {
+    width: 600px;
+    height: 100px;
 }
 
 .navbar {
