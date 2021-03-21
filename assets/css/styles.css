@@ -14,28 +14,27 @@ body {
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    display: inline-block;
+    display: flex;
+    align-items: flex-start;
+    /*display: inline-block;*/
     opacity: 0.5;
-}
-
-.header {
-    padding-top: 40px;
-    padding-left: 45px;
-    margin-right: 45px;
+    /*padding: 0px;
+    margin-top: 50px;
+    margin-left: 0px;*/
 }
 
 .navbar {
     padding-top: 0px;
+    background-image: url('/assets/images/header-bg.jpg');
     background-repeat: no-repeat;
     background-attachment: local;
-    background-size: 100% 100%;
+    background-size: 1500px 900px;
     color: white;
-    padding-bottom: 360px;
-    filter: alpha(opacity=80);
 }
 
 .navbar li a {
     color: white;
+
 }
 
 a:link {
@@ -44,37 +43,44 @@ a:link {
 }
 
 li {
-    display: inline-flex;
+    /* display: inline-flex;
     list-style-type: none;
-    height: 25px;
-    padding-top: 0px;
+    align-items: center;*/
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 0px;
     margin-bottom: 80px;
 }
 
 .menu ul {
     display: inline-flex;
-    float: right;
-    padding: 10px;
+    list-style-type: none;
+    text-align: right;
+    margin-left: 700px;
+    margin-bottom: 1000px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
 
+.clearfix {
+    clear: both;
+    float: none;
 }
 
 h1 {
     margin-top: 0;
     display: block;
     text-align: left;
-    margin-left: 120px;
+    font-size: xx-large;
+    margin-left: 380px;
 }
 
-.nav-subtitle {
+.navSubtitle {
     display: block;
     text-align: left;
     margin-left: 120px;
 }
 
-.btn-1 {
+.btnOne {
     background-color: Transparent;
     background-repeat: no-repeat;
     color: white;
@@ -83,7 +89,7 @@ h1 {
     font-size: 10px;
 }
 
-.section-1 {
+.sectionOne {
     display: flex;
     justify-content: center;
     margin: 50px;
@@ -92,18 +98,18 @@ h1 {
 
 }
 
-.section-1 img {
+.sectionOne img {
     border: 1px solid;
     height: 75px;
     width: 70px;
 }
 
-.section-1 p {
+.sectionOne p {
     font-size: x-small;
     text-align: center;
 }
 
-.section-2 {
+.sectionTwo {
     height: 470px;
     background-color: rgb(241, 236, 233);
     display: flex;
@@ -112,21 +118,21 @@ h1 {
     margin-right: 40px;
 }
 
-.section-2 img {
+.sectionTwo img {
     width: 390px;
     padding-left: 240px;
     padding-top: 80px;
 
 }
 
-.btn-2 {
+.btnTwo {
     margin-top: 20px;
     font-size: x-small;
     padding: 10px 15px 10px 15px;
     border: 1px solid rgb(185, 90, 13);
 }
 
-.subsection-2 {
+.subsectionTwo {
     padding-top: 120px;
     padding-right: 260px;
     padding-left: 40px;
@@ -137,13 +143,13 @@ h1 {
     color: rgb(185, 90, 13);
 }
 
-.subsection-2 h4 {
+.subsectionTwo h4 {
     margin-top: 5px;
     font-size: x-large;
     margin-bottom: 5px;
 }
 
-.p-section-2 {
+.pSectionTwo {
     font-size: x-small;
 }
 
@@ -169,7 +175,7 @@ h1 {
     font-size: small;
 }
 
-.photo-1 {
+.photoOne {
     position: relative;
     display: inline-block;
     text-align: center;
@@ -177,7 +183,7 @@ h1 {
     margin-left: 300px;
 }
 
-.text-1 {
+.textOne {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -185,13 +191,13 @@ h1 {
     background-color: white;
 }
 
-.photo-2 {
+.photoTwo {
     position: relative;
     display: inline-block;
     text-align: center;
 }
 
-.text-2 {
+.textTwo {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -199,13 +205,13 @@ h1 {
     background-color: white;
 }
 
-.photo-3 {
+.photoThree {
     position: relative;
     display: inline-block;
     text-align: center;
 }
 
-.text-3 {
+.textThree {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -213,13 +219,13 @@ h1 {
     background-color: white;
 }
 
-.photo-4 {
+.photoFour {
     position: relative;
     display: inline-block;
     text-align: center;
 }
 
-.text-4 {
+.textFour {
     position: absolute;
     top: 50%;
     left: 50%;
