@@ -1,6 +1,6 @@
-body {
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
 
     /*Fuentes*/
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -9,6 +9,32 @@ body {
     -moz-osx-font-smoothing: antialiased;
 }
 
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    padding-top: 0px;
+    background-image: url('/assets/images/header-bg.jpg');
+    background-repeat: no-repeat;
+    color: white;
+    height: 900px;
+}
+
+header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(61, 41, 107);
+    top: 0;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+
 .logo {
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
@@ -16,24 +42,25 @@ body {
     transform: rotate(-90deg);
     display: inline-block;
     opacity: 0.5;
+    z-index: 2;
 }
 
 .logo img {
     width: 600px;
     height: 100px;
+    margin-block: 251px;
+    margin-inline: -94px;
 }
 
-.navbar {
-    padding-top: 0px;
-    background-image: url('/assets/images/header-bg.jpg');
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-size: 1500px 900px;
-    color: white;
-}
+
+
 
 .navbar li a {
     color: white;
+}
+
+.divH1 {
+    margin-bottom: 1px;
 
 }
 
@@ -42,23 +69,15 @@ a:link {
     list-style: none;
 }
 
-li {
-    /* display: inline-flex;
-    list-style-type: none;
-    align-items: center;*/
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 80px;
+.menu ul li {
+    display: inline-block;
+    font-size: small;
+    z-index: 2;
 }
 
 .menu ul {
-    display: inline-flex;
     list-style-type: none;
     text-align: right;
-    margin-left: 700px;
-    margin-bottom: 1000px;
-    padding-top: 0px;
-    margin-top: 0px;
 }
 
 .clearfix {
@@ -71,13 +90,13 @@ h1 {
     display: block;
     text-align: left;
     font-size: xx-large;
-    margin-left: 380px;
+
 }
 
 .navSubtitle {
     display: block;
     text-align: left;
-    margin-left: 120px;
+    margin-left: 380px;
 }
 
 .btnOne {
@@ -93,20 +112,29 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 50px;
-    padding-left: 210px;
-    padding-right: 150px;
+    margin-left: 170px;
 
 }
 
 .sectionOne img {
     border: 1px solid;
-    height: 75px;
-    width: 70px;
+    height: 140px;
+    width: 150px;
+    margin-right: 130px;
+}
+
+h6 {
+    font-size: 17px;
+    text-align: initial;
+    margin-left: 9px;
 }
 
 .sectionOne p {
-    font-size: x-small;
+    font-size: medium;
     text-align: center;
+    margin-right: 134px;
+    margin-top: -25px;
+
 }
 
 .sectionTwo {
@@ -124,6 +152,8 @@ h1 {
     padding-top: 80px;
 
 }
+
+
 
 .btnTwo {
     margin-top: 20px;
