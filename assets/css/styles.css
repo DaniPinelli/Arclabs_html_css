@@ -3,7 +3,7 @@
     margin: auto;
 }
 
-/****** Estilos del header ******/
+/****** Header ****************************************/
 
 header {
     padding-top: 0px;
@@ -98,7 +98,7 @@ h1 {
     font-size: 10px;
 }
 
-/****** Estilos section one ******/
+/****** Section one ****************************************/
 
 .sectionOne {
     display: flex;
@@ -129,7 +129,7 @@ h6 {
 
 }
 
-/****** Estilos section two ******/
+/****** Section two ****************************************/
 
 .sectionTwo {
     height: 470px;
@@ -140,43 +140,52 @@ h6 {
     padding-left: -300px;
     margin-left: -350px;
     margin-right: -600px;
+    padding-bottom: 138px;
 }
 
 .sectionTwo img {
-    width: 390px;
-    padding-left: 240px;
-    padding-top: 80px;
-
+    height: 398px;
+    width: 500px;
+    padding-left: 324px;
+    padding-top: 104px;
 }
 
+.about {
+    font-size: medium;
+    color: rgb(185, 90, 13);
+    margin-top: 50px;
+    margin-left: 14px;
+}
 
+.subsectionTwo h4 {
+    margin-top: -1px;
+    font-size: x-large;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.pSectionTwo {
+    font-size: x-small;
+    margin-top: 22px;
+    margin-left: 16px;
+    text-align: start;
+    margin-right: 504px;
+}
 
 .btnTwo {
     margin-top: 20px;
-    font-size: x-small;
-    padding: 10px 15px 10px 15px;
+    margin-left: 18px;
+    font-size: small;
+    padding: 20px 28px 20px 28px;
     border: 1px solid rgb(185, 90, 13);
 }
+
+/****** Main ****************************************/
 
 .subsectionTwo {
     padding-top: 120px;
     padding-right: 260px;
     padding-left: 40px;
-}
-
-.about {
-    font-size: x-small;
-    color: rgb(185, 90, 13);
-}
-
-.subsectionTwo h4 {
-    margin-top: 5px;
-    font-size: x-large;
-    margin-bottom: 5px;
-}
-
-.pSectionTwo {
-    font-size: x-small;
 }
 
 .recent {
