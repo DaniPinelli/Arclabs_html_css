@@ -1,6 +1,7 @@
 .container {
     max-width: 1200px;
     margin: auto;
+    font-family: sans-serif;
 }
 
 /****** Header ****************************************/
@@ -11,6 +12,8 @@ header {
     background-image: url("../images/header-bg.jpg");
     background-repeat: no-repeat;
     height: 902px;
+    top: 0;
+    left: 0;
 }
 
 header:before {
@@ -22,7 +25,7 @@ header:before {
     top: 0;
     left: 0;
     z-index: 10;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 .logo {
@@ -33,6 +36,9 @@ header:before {
     display: inline-block;
     opacity: 0.6;
     z-index: 20;
+    height: 108px;
+    margin-right: 10px;
+    margin-top: -90px;
 }
 
 .logo img {
@@ -47,9 +53,9 @@ header:before {
     z-index: 20;
 }
 
-.divH1 {
-    margin-bottom: 1px;
-
+.divH1 h1 {
+    margin-left: 404px;
+    margin-top: 30px;
 }
 
 a:link {
@@ -89,13 +95,29 @@ h1 {
     z-index: 20;
 }
 
+.navSubtitle p {
+    margin-left: 28px;
+    margin-top: 188px;
+    height: 14px;
+}
+
+h2 {
+    margin-left: 28px;
+    margin-top: 28px;
+    font-size: 96px;
+    letter-spacing: -3pt;
+    line-height: 76pt;
+}
+
 .btnOne {
     background-color: Transparent;
     background-repeat: no-repeat;
     color: white;
-    padding: 5px 5px 5px;
+    padding: 16px 30px 14px;
     border-color: white;
-    font-size: 10px;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: -20px;
 }
 
 /****** Section one ****************************************/
