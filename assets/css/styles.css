@@ -220,17 +220,17 @@ h6 {
 }
 
 .recent p {
-    font-size: x-small;
+    font-size: medium;
     color: rgb(185, 90, 13);
     height: 16px;
-    margin-top: 102px;
-
+    margin-top: 130px;
+    margin-left: 364px;
 }
 
 .recent h5 {
-    font-size: x-large;
-    margin-top: 0px;
-    padding-left: -34;
+    font-size: xx-large;
+    margin-top: -4px;
+    margin-left: 367px;
 }
 
 .proyect {
