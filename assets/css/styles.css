@@ -11,7 +11,7 @@ header {
     width: 1920px;
     background-image: url("../images/header-bg.jpg");
     background-repeat: no-repeat;
-    height: 902px;
+    height: 900px;
     top: 0;
     left: 0;
 }
@@ -19,7 +19,7 @@ header {
 header:before {
     content: "";
     width: 1920px;
-    height: 902px;
+    height: 900px;
     position: absolute;
     background: rgb(61, 41, 107);
     top: 0;
@@ -66,11 +66,15 @@ a:link {
 .menu ul li {
     display: inline-block;
     font-size: small;
+    margin-left: 35px;
+
 }
 
 .menu ul {
     list-style-type: none;
     text-align: right;
+    margin-top: -60px;
+    margin-right: 400px;
 }
 
 .clearfix {
@@ -97,16 +101,17 @@ h1 {
 
 .navSubtitle p {
     margin-left: 28px;
-    margin-top: 188px;
+    margin-top: 246px;
     height: 14px;
 }
 
 h2 {
     margin-left: 28px;
-    margin-top: 28px;
+    margin-top: 22px;
     font-size: 96px;
     letter-spacing: -3pt;
     line-height: 76pt;
+    margin-bottom: 38px;
 }
 
 .btnOne {
@@ -117,7 +122,6 @@ h2 {
     border-color: white;
     font-size: 16px;
     margin-left: 30px;
-    margin-top: -20px;
 }
 
 /****** Section one ****************************************/
@@ -126,7 +130,7 @@ h2 {
     display: flex;
     justify-content: center;
     margin: 128px;
-    margin-left: 170px;
+    margin-left: 612px;
 
 }
 
@@ -134,7 +138,7 @@ h2 {
     border: 1px solid;
     height: 140px;
     width: 148px;
-    margin-right: 127px;
+    margin-right: 136px;
 }
 
 h6 {
@@ -154,49 +158,47 @@ h6 {
 /****** Section two ****************************************/
 
 .sectionTwo {
-    height: 470px;
-    width: 1900px;
+    height: 754px;
+    width: 1920px;
     background-color: rgb(241, 236, 233);
     display: flex;
-    margin-top: 10px;
-    padding-left: -300px;
-    margin-left: -350px;
-    margin-right: -600px;
-    padding-bottom: 138px;
+    margin-top: -10px;
+    margin-left: -188px;
+    padding-right: 186px;
 }
 
 .sectionTwo img {
-    height: 398px;
+    height: 496px;
     width: 500px;
-    padding-left: 324px;
-    padding-top: 104px;
+    padding-left: 426px;
+    padding-top: 128px;
 }
 
 .about {
     font-size: medium;
     color: rgb(185, 90, 13);
-    margin-top: 50px;
-    margin-left: 14px;
+    margin-top: 94px;
+    margin-left: 30px;
 }
 
 .subsectionTwo h4 {
     margin-top: -1px;
-    font-size: x-large;
+    font-size: xx-large;
     margin-bottom: 5px;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 .pSectionTwo {
     font-size: x-small;
-    margin-top: 22px;
-    margin-left: 16px;
+    margin-top: 26px;
+    margin-left: 30px;
     text-align: start;
     margin-right: 504px;
 }
 
 .btnTwo {
-    margin-top: 20px;
-    margin-left: 18px;
+    margin-top: 32px;
+    margin-left: 30px;
     font-size: small;
     padding: 20px 28px 20px 28px;
     border: 1px solid rgb(185, 90, 13);
