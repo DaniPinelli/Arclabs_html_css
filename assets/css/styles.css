@@ -130,7 +130,7 @@ h2 {
     display: flex;
     justify-content: center;
     margin: 128px;
-    margin-left: 612px;
+    margin-left: 786px;
 
 }
 
@@ -172,6 +172,7 @@ h6 {
     width: 500px;
     padding-left: 426px;
     padding-top: 128px;
+    margin-left: 66px;
 }
 
 .about {
@@ -189,11 +190,11 @@ h6 {
 }
 
 .pSectionTwo {
-    font-size: x-small;
+    font-size: small;
     margin-top: 26px;
     margin-left: 30px;
     text-align: start;
-    margin-right: 504px;
+    margin-right: 232px;
 }
 
 .btnTwo {
@@ -224,30 +225,44 @@ h6 {
     color: rgb(185, 90, 13);
     height: 16px;
     margin-top: 130px;
-    margin-left: 364px;
+    margin-left: 578px;
 }
 
 .recent h5 {
     font-size: xx-large;
     margin-top: -4px;
-    margin-left: 367px;
+    margin-left: 566px;
 }
 
 .proyect {
     display: flex;
     justify-content: center;
     font-size: small;
-    list-style-type: none;
-    margin-top: 70px;
-    margin-left: -106px;
+    margin-top: 84px;
+    margin-left: 530px;
 }
+
+.proyect li {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+/****** Photos ****************************************/
 
 .photoOne {
     position: relative;
-    display: inline-block;
+    display: inline-flex;
     text-align: center;
     height: 150px;
+    margin-top: 54px;
     margin-left: 300px;
+}
+
+.photoOne img {
+    width: 349px;
+    height: 475px;
+    float: left;
 }
 
 .textOne {
@@ -260,8 +275,15 @@ h6 {
 
 .photoTwo {
     position: relative;
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: row-reverse;
     text-align: center;
+}
+
+.photoTwo img {
+    width: 730px;
+    height: 475px;
+    float: right;
 }
 
 .textTwo {
@@ -274,7 +296,7 @@ h6 {
 
 .photoThree {
     position: relative;
-    display: inline-block;
+    display: flex;
     text-align: center;
 }
 
@@ -286,9 +308,14 @@ h6 {
     background-color: white;
 }
 
+.photoThree img {
+    width: 349px;
+    height: 475px;
+}
+
 .photoFour {
     position: relative;
-    display: inline-block;
+    display: flex;
     text-align: center;
 }
 
@@ -298,4 +325,9 @@ h6 {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
+}
+
+.photoFour img {
+    width: 730px;
+    height: 475px;
 }
