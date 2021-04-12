@@ -269,6 +269,7 @@ h6 {
     background-color: white;
     margin-left: 48px;
     padding-right: 94px;
+    margin-right: 10px;
 }
 
 .textOne p {
@@ -298,6 +299,7 @@ h6 {
     background-color: white;
     margin-left: 428px;
     padding-right: 94px;
+    margin-right: 10px;
 }
 
 .textTwo p {
@@ -331,6 +333,7 @@ h6 {
     background-color: white;
     margin-left: 48px;
     padding-right: 94px;
+    margin-right: 10px;
 }
 
 .textThree p {
@@ -360,6 +363,7 @@ h6 {
     background-color: white;
     margin-left: 428px;
     padding-right: 94px;
+    margin-right: 10px;
 }
 
 .textFour p {
@@ -399,4 +403,15 @@ h6 {
 
 .testimonials {
     margin-top: 130px;
+}
+
+.testimonials p {
+    margin-left: 594px;
+    color: rgb(185, 90, 13);
+}
+
+.testimonials h6 {
+    font-size: 40px;
+    margin-left: 524px;
+    margin-top: 16px;
 }
