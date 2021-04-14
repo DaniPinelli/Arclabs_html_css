@@ -251,6 +251,7 @@ h6 {
 .photoDivOne {
     display: flex;
     margin-top: 54px;
+    margin-right: -250px;
 }
 
 .photoOne {
@@ -316,6 +317,7 @@ h6 {
 .photoDivTwo {
     display: flex;
     margin-top: 28px;
+    margin-right: -250px;
 }
 
 .photoThree {
@@ -401,9 +403,15 @@ h6 {
     font-size: xx-large;
 }
 
-.testimonials {
-    margin-top: 130px;
+.testimonialsDiv {
     background-color: #eeeeee;
+    margin-top: 0px;
+    width: 1920px;
+    height: 724px;
+}
+
+.testimonials {
+    padding-top: 112px;
 }
 
 .testimonials p {
@@ -419,5 +427,40 @@ h6 {
 
 .subTestimonials {
     display: flex;
-    background-color: #eeeeee;
+}
+
+.testimonialOne {
+    display: flex;
+    background-color: white;
+    height: 214px;
+    width: 360px;
+    margin-left: 330px;
+}
+
+.testimonialOne img {
+    height: 70px;
+}
+
+.testimonialTwo {
+    display: flex;
+    background-color: white;
+    height: 214px;
+    width: 360px;
+    margin-left: 30px;
+}
+
+.testimonialTwo img {
+    height: 70px;
+}
+
+.testimonialThree {
+    display: flex;
+    background-color: white;
+    height: 214px;
+    width: 360px;
+    margin-left: 30px;
+}
+
+.testimonialThree img {
+    height: 70px;
 }
