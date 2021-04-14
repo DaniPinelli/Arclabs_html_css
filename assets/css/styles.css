@@ -124,7 +124,7 @@ h2 {
     display: flex;
     justify-content: center;
     margin: 128px;
-    margin-left: 616px;
+    margin-left: 866px;
 
 }
 
@@ -154,7 +154,7 @@ h6 {
 .sectionTwo {
     height: 754px;
     width: 1920px;
-    background-color: rgb(241, 236, 233);
+    background-color: #eeeeee;
     display: flex;
     margin-top: -10px;
     margin-left: -188px;
@@ -438,7 +438,16 @@ h6 {
 }
 
 .testimonialOne img {
+    margin-top: 34px;
+    margin-left: 28px;
     height: 70px;
+}
+
+.testimonialOne p {
+    margin-top: 34px;
+    margin-left: 34px;
+    padding-right: 40px;
+    text-align: justify;
 }
 
 .testimonialTwo {
@@ -450,7 +459,16 @@ h6 {
 }
 
 .testimonialTwo img {
+    margin-top: 34px;
+    margin-left: 28px;
     height: 70px;
+}
+
+.testimonialTwo p {
+    margin-top: 34px;
+    margin-left: 34px;
+    padding-right: 40px;
+    text-align: justify;
 }
 
 .testimonialThree {
@@ -462,5 +480,122 @@ h6 {
 }
 
 .testimonialThree img {
+    margin-top: 34px;
+    margin-left: 28px;
     height: 70px;
+}
+
+.testimonialThree p {
+    margin-top: 34px;
+    margin-left: 34px;
+    padding-right: 40px;
+    text-align: justify;
+}
+
+.bottomImages {
+    height: 270px;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+}
+
+.bottomImages:before {
+    content: "";
+    width: 1920px;
+    height: 270px;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0.8;
+}
+
+.bottomImg1 {
+    margin-left: 430px;
+}
+
+.bottomImg2 {
+    margin-left: 98px;
+}
+
+.bottomImg3 {
+    margin-left: 98px;
+}
+
+.bottomImg4 {
+    margin-left: 120px;
+}
+
+.bottomImg5 {
+    margin-left: 120px;
+}
+
+.foot {
+    height: 560px;
+    width: 1920px;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: medium;
+}
+
+.foot h6 {
+    height: 24px;
+    text-align: start;
+    margin-left: auto;
+}
+
+.foot p {
+    color: grey;
+    margin-top: 20px;
+}
+
+.foot li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.foot ul {
+    margin-top: 130px;
+}
+
+.footOne {
+    margin-left: 366px;
+}
+
+.footTwo {
+    margin-left: 22px;
+}
+
+.footThree {
+    margin-left: 28px;
+}
+
+.footFour {
+    margin-left: 30px;
+}
+
+.footFive {
+    margin-left: 60px;
+}
+
+.lastDiv {
+    display: flex;
+}
+
+input {
+    background-color: rgb(26, 26, 94);
+    padding-left: 18px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    border-style: none;
+}
+
+button {
+    padding-left: 18px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 18px;
 }
