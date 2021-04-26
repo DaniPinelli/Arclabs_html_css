@@ -22,6 +22,10 @@ header:before {
     opacity: 0.5;
 }
 
+.logoDiv {
+    margin-top: -262px;
+}
+
 .logo {
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
@@ -499,7 +503,7 @@ h6 {
     align-items: center;
 }
 
-.bottomImages:before {
+/*.bottomImages:before {
     content: "";
     width: 1920px;
     height: 270px;
@@ -509,7 +513,7 @@ h6 {
     left: 0;
     z-index: 10;
     opacity: 0.8;
-}
+}*/
 
 .bottomImg1 {
     margin-left: 430px;
